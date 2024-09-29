@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Referencias a los elementos de la vista
+        // Elementos
         etWeight = findViewById(R.id.etWeight);
         etDimensions = findViewById(R.id.etDimensions);
         etDestination = findViewById(R.id.etDestination);
