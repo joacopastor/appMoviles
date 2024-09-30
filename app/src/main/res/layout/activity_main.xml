@@ -25,15 +25,13 @@
         android:id="@+id/ivLogo"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/logoaudi"
+        android:src="@drawable/logo"
         app:layout_constraintTop_toBottomOf="@+id/tvTitle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="10dp"/>
 
     <!-- Subtitulo  -->
-
-
 
     <TextView
         android:id="@+id/tvSubTitle"
@@ -46,6 +44,8 @@
         app:layout_constraintBottom_toTopOf="@id/llFields"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ivLogo" />
+
+
 
     <!-- Layout para los campos -->
     <LinearLayout
@@ -60,23 +60,55 @@
 
         <!-- Campo de peso -->
         <EditText
-            android:id="@+id/etWeight"
+            android:id="@+id/weight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Peso del paquete (kg)"
-            android:inputType="numberDecimal"/>
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="10dp"/>
 
         <!-- Campo de dimensiones -->
+        <!-- LARGO -->
         <EditText
-            android:id="@+id/etDimensions"
+            android:id="@+id/largo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Dimensiones (LxWxH cm)"
-            android:inputType="text"/>
+            android:hint="Largo"
+            android:inputType="text"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Alto -->
+        <EditText
+            android:id="@+id/alto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alto"
+            android:inputType="text"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Ancho -->
+        <EditText
+            android:id="@+id/ancho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ancho"
+            android:inputType="text"
+            android:layout_marginBottom="10dp"/>
+
+
+        <!-- Campo de dirección de busqueda -->
+        <EditText
+            android:id="@+id/adress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dirección de origen"
+            android:inputType="text"
+            android:layout_marginBottom="10dp"/>
+
 
         <!-- Campo de dirección de destino -->
         <EditText
-            android:id="@+id/etDestination"
+            android:id="@+id/destination"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Dirección de destino"
