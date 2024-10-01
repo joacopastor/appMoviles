@@ -1,0 +1,17 @@
+﻿Servicio de mensajería 
+(nombre a confirmar)
+
+
+
+
+
+
+
+
+La aplicación elegida para desarrollar es una empresa de envío de paquetes donde los usuarios van a poder registrarse, realizar envíos, recibir envíos y ver el estado de estos dos. A su vez van a poder programar estos envíos dependiendo del tiempo que tenga cada usuario y de la disponibilidad de vehículos para realizarlos.
+
+
+La pantalla elegida de la aplicación de mensajería permite a los usuarios ingresar las características de un paquete, como el peso, las dimensiones , la dirección de origen y la dirección de destino, para estimar el precio de envío y la fecha de entrega. 
+
+
+En cuanto a la escalabilidad a futuro esta misma pantalla podría contar con un calendario, luego de que el usuario acepta el precio del envío del paquete, para así poder programar el día en que quiere que retiren el paquete del origen y el día del envío a su destino. Una vez definido ese punto, procederá a realizar el pago del servicio.
